@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -5,8 +11,33 @@ body {
   background-size: cover;
 }
 
+body * {
+  font-optical-sizing: auto;
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  /*
+  font-weight: <weight>;
+  font-style: normal;
+  */
+}
+
 #container {
   width: 360px;
-  height: 712px;
+  margin: /*cima*/ 56px /*laterais*/ auto /*baixo*/ 0px;
   border: 1px solid red;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
 }
