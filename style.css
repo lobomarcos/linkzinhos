@@ -24,7 +24,7 @@ body * {
 #container {
   width: 360px;
   margin: /*cima*/ 56px /*laterais*/ auto /*baixo*/ 0px;
-  border: 1px solid red;
+  padding: 0px 24px;
 }
 
 #profile {
@@ -40,4 +40,73 @@ body * {
   font-weight: 400;
   line-height: 24px;
   margin-top: 8px;
+}
+
+/*links*/
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0px;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 24px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: all 0.5s;
+}
+
+/*pseudo-selector*/
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
+}
+
+/*social-links*/
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  padding: 24px 0px;
+
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+
+  border-radius: 50%;
+
+  transition: all 0.5s;
+}
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 16px;
+}
+
+footer {
+  padding: 24px 0px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
 }
