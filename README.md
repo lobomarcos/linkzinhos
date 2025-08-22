@@ -1,4 +1,4 @@
-<h1 align="center">🔗 Linkzinhos</h1>
+<h1 align="center">🔗 <a href="https://lobomarcos.github.io/linkzinhos/" target="_blank">Linkzinhos</a></h1>
 
 Um projeto de Agregador de Links desenvolvido no curso Discover da Rocketseat! Feito para aprender HTML, CSS e JavaScript.
 
